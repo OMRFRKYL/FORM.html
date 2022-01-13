@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Başvuru Formu</title>
+    <style>
+        table{
+            background-image: linear-gradient(red, yellow);
+            
+        }
+      
+    </style>
+</head>
+<body>
+    <form action="">
+    <table border="2"> 
+        <tr>
+            <td colspan="2" align="center">  <h3>İŞ BAŞVURU FORMU</h3></td> 
+        </tr>
+    <tr>
+        <td><label for="ad">Adı :</label></td>
+        <td><input type="text" name="isim" id="ad" placeholder="Adınızı giriniz." required></td>
+    </tr>
+    <tr>
+        <td> <label for="soyad">Soyadı :</label></td>
+        <td><input type="text" name="soyisim" id="soyad" placeholder="Soyadınızı giriniz." required></td>
+    </tr>
+    <tr>
+        <td> <label for="cins">Cinsiyet :</label></td>
+        <td><input type="radio" name="" id="cins">Bay
+        <input type="radio" name="" id="cins">Bayan</td>
+    </tr>
+    <tr>
+        <td><label for="mail">E-posta :</label></td>    
+        <td><input type="email" name="email" id="mail" placeholder="example@example.com"required></td>   
+    </tr>
+    <tr>
+        <td><label for="şifre">Şifre :</label></td>
+        <td><input type="password" name="şifre" id="şifre"></td>
+    </tr>
+    <tr>
+        <td><label for="doğum">Doğum Tarihi :</label></td>
+        <td><input type="date" name="şifre" id="doğum" required></td>
+    </tr>
+    <tr>
+
+        <td><label for="doğum yer">Doğum Yeri :</label></td>
+        <td><select name="doğum yeri" id="doğum yer" required>
+            <option value="16" selected>Bursa</option>
+            <option value="34">İstanbul</option>
+            <option value="06">Ankara</option>
+            <option value="35">İzmir</option>
+            <option value="01">Adana</option>
+            <option value="00">Diğer</option>
+        </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="referans">Referanslar :</label></td>
+        <td><textarea name="referans" id="referans" cols="30" rows="10" required></textarea></td>
+    </tr>   
+    <tr>
+        <td><label for="sigara">Alışkanlıklar :</label></td>
+        <td>
+            <input type="radio" name="alışkanlık" id="sigara" >Sigara Kullanıyorum.
+            <input type="radio" name="alışkanlık" id="sigara" >Pasif İçiciyim.
+            <input type="radio" name="alışkanlık" id="sigara" >Sigara Kullanmıyorum.
+        </td>
+    </tr>
+    <tr>
+        <td><label for="dil">Yabancı Dil Ve Seviyesi : </label required></td>
+        <td>
+                <input type="checkbox" name="dil" id="dil">İngilizce<input type="range" name="dil" id="dil"><br>
+                <input type="checkbox" name="dil" id="dil">Almanca<input type="range" name="dil" id="dil"><br>
+                <input type="checkbox" name="dil" id="dil">Flemenkçe<input type="range" name="dil" id="dil"><br>
+                <input type="checkbox" name="dil" id="dil">İtalyanca<input type="range" name="dil" id="dil"><br>
+                <input type="checkbox" name="dil" id="dil">Fransızca<input type="range" name="dil" id="dil">
+        </td>
+
+        
+            
+            
+    </tr>     
+       
+    <tr>
+        <td>
+            <label for="asker">Askerlik Durumu :</label>
+        </td>
+        <td>
+            <select name="askerlik durum" id="asker">
+                <option value="">Tecilli</option>
+                <option value="">Muaf</option>
+                <option value="">Yapıldı</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="eğitim">Eğitim Durumu :</label>
+        </td>
+        <td>
+            <select name="eğitim durum" id="eğitim">
+                <option value="">Lise</option>
+                <option value="">Ön Lisans</option>
+                <option value="">Lisans</option>
+                <option value="">Yüksek Lisans</option>
+                <option value="">Doktora</option>
+                <option value="">Diğer</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="geçmiş">Geçmiş İşler :</label></td>
+        <td><textarea name="geçmiş işler" id="geçmiş" cols="30" rows="10"></textarea></td>
+    </tr>   
+    <tr>
+        <td>
+            <input type="text" name="" id="" placeholder="İmza"><br>
+            <input type="submit" value="Gönder">
+            <input type="reset" value="Temizle">
+            
+        </td>
+    </tr>
+
+    
+    
+</table>
+
+</form>
+    
+
+
+</body>
+</html>
